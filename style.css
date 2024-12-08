@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+.header{
+    margin-top: 50px;
+}
+
+
+table{
+    margin: 0 auto;
+    border-spacing: 10px;
+}
+
+.main{
+    margin-top: 60px;
+}
+
+.movescount{
+    font-weight: lighter;
+}
+
+.over{
+    color: green;
+}
+
+.rock{
+    margin: 30px;
+    width: 60px;
+    color: aliceblue;
+    background-color: rgb(3, 199, 3);
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.paper{
+    margin: 30px;
+    width: 60px;
+    color: aliceblue;
+    background-color: rgb(3, 199, 3);
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.scissor{
+    margin: 30px;
+    width: 60px;
+    color: aliceblue;
+    background-color: rgb(3, 199, 3);
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.result{
+    color:rgb(3, 199, 3);
+}
+
+.reset{
+    margin: 30px;
+    width: 100px;
+    color: aliceblue;
+    background-color: rgb(3, 199, 3);
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    transform: scale(1.3);
+}
